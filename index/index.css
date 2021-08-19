@@ -1,0 +1,209 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*header*/ 
+
+.header {
+  border: 0.1rem solid rgb(236, 236, 236);
+  width: 
+  height:6rem;
+  background-color:rgb(255, 255, 255);
+  padding: 0.5rem;
+}
+
+.header__img {
+  position: relative;
+  display: inline;
+  top: 0.5rem;
+  left: 3rem;
+  height: 5rem;
+  width: 12rem;
+}
+
+.header__li {
+  display: inline;
+  width: 1rem;
+  height: 0.2rem;
+  position: relative;
+  bottom: 2.5rem;
+  left: 25rem;
+  padding: 1rem;
+  font-size: 0.5rem; 
+}
+
+.header__a {
+  color: grey;
+  font-size: 1rem;
+  font-family:sans-serif;
+  text-decoration: none;
+
+}
+
+/*index*/
+
+.home {
+  background-image: url("https://madreshoy.com/wp-content/uploads/2020/08/familia-en-casa.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30.5rem;
+}
+
+.home__div1 {
+  position: relative;
+  display: inline-block;
+  left: 4rem;
+  top: 8rem;
+  height: 1rem;
+  width: 65rem;
+}
+.home__titulo {
+  position: relative;
+  display: inline-block;
+  font-weight: lighter;
+  left: 25rem;
+  font-size: 2.8rem;
+  height: 5rem;
+  color:white;
+  font-family: sans-serif;
+}
+
+.home__slider {
+  position: relative;
+  left: 8rem;
+  top: 1rem;
+  text-align: center;
+}
+
+.home__select1 {
+  color: grey;
+  font-size: 1rem;
+  height: 2rem;
+  width: 7rem;
+}
+
+.home__select2 {
+  color: grey;
+  font-size: 1rem;
+  height: 2rem;
+  width: 15rem;
+}
+
+.home__select3 {
+  color: grey;
+  font-size: 1rem;
+  height: 2rem;
+  width: 15rem;
+}
+
+.home__input {
+  border: 0.2rem solid grey;
+  color: grey;
+  font-size: 1rem;
+  height: 2rem;
+  width: 10rem;
+}
+
+
+.bienvenidos {
+  background-color: rgb(218, 214, 214);
+  height: 50px;
+}
+
+.bienvenidos__h1 {
+  font-size: 2rem;
+  color: rgb(158, 157, 157);
+  font-family: sans-serif;
+  text-align: center;
+}  
+
+/*seccion destacada index*/
+
+.destacadas__titulo {
+  font-size: 1.5rem;
+  margin-left: 45px;
+  margin-top: 15px;
+  color: rgb(187, 187, 187);
+  font-family: sans-serif;
+}
+.container_image {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+
+}
+
+.containerImg img {
+  width: 250px;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.containerImg p {
+  font-size: 1rem;
+  text-align: justify;
+  font-family: sans-serif;
+}
+.containerImg h3 {
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 2px;
+}
+
+.containerImg a {
+  color: black;
+
+}
+
+
+
+
+
+
+/*footer*/
+
+
+
+.footer {
+  background-color: rgb(238, 235, 235);
+  border: 0.2rem solid rgb(224, 223, 223);
+  position: relative;
+  bottom: 0rem;
+  width: auto;
+  height: 10rem;
+}
+.footer__section {
+  position: absolute;
+  display: inline block;
+  top: 2rem;
+  left: 30rem;
+  font-size: 1rem;
+  text-align:justify;
+  font-weight: bold;
+  color:rgb(136, 131, 131);
+  
+}
+
+.footer__item {
+  left: 10rem;
+}
+
+.footer__div {
+  display: inline block;
+
+}
+
+.footer__img {
+  position: absolute;
+  left: 5rem;
+  top: 3rem;
+  height: 6rem;
+
+}

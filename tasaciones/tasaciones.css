@@ -1,0 +1,169 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*header*/ 
+
+.header {
+  border: 0.1rem solid rgb(236, 236, 236);
+  width: 
+  height:6rem;
+  background-color:rgb(255, 255, 255);
+  padding: 0.5rem;
+}
+
+.header__img {
+  position: relative;
+  display: inline;
+  top: 0.5rem;
+  left: 3rem;
+  height: 5rem;
+  width: 12rem;
+}
+
+.header__li {
+  display: inline;
+  width: 1rem;
+  height: 0.2rem;
+  position: relative;
+  bottom: 2.5rem;
+  left: 25rem;
+  padding: 1rem;
+  font-size: 0.5rem; 
+}
+
+.header__a {
+  color: grey;
+  font-size: 1rem;
+  font-family:sans-serif;
+  text-decoration: none;
+
+}
+
+/*footer*/
+
+
+
+.footer {
+  background-color: rgb(238, 235, 235);
+  border: 0.2rem solid rgb(224, 223, 223);
+  position: relative;
+  bottom: 0rem;
+  width: auto;
+  height: 10rem;
+}
+.footer__section {
+  position: absolute;
+  display: inline block;
+  top: 2rem;
+  left: 30rem;
+  font-size: 1rem;
+  text-align:justify;
+  font-weight: bold;
+  color:rgb(136, 131, 131);
+  
+}
+
+.footer__item {
+  left: 10rem;
+}
+
+.footer__div {
+  display: inline block;
+
+}
+
+.footer__img {
+  position: absolute;
+  left: 5rem;
+  top: 3rem;
+  height: 6rem;
+
+}
+
+/*formulario */
+.container__tasaciones {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.left h1 {
+  color: grey;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.left {
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+
+
+.center {
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 110px;
+  padding: 25px;
+}
+
+.right {
+  margin-top: 120px;
+  width: 500px;
+  height: 400px;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+
+.input1 {
+  font-size: 1rem;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 25px;
+  border: 1px solid grey;
+  text-align: justify;
+  padding: 8px;
+}
+
+.input2 {
+  width: 105px;
+  height: 25px;
+  font-size: 1rem;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid grey;
+  color: grey;
+  
+}
+
+.input3 {
+  width: 60px;
+  height: 25px;
+  margin: 6px;
+  border: 1px solid grey;
+  color: grey;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.input4 {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  color: grey;
+  background-color: #fff;
+  font-weight: bold;
+}
